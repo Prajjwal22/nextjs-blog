@@ -21,13 +21,16 @@ export default function Home({allPostsData}) {
         <title>{siteTitle}</title>
       </Head>
       <section className={utilStyles.headingMd}>
-        <p>HowToShout is an independent Gaming guide property. Providing the best and high-quality guides for popular games that help you to get the most out of it. Founded in 2016 by the group of professional gamers, who love to play on all platforms. Also having the experience of 10+ years in the gaming industry. So how this would beneficial for you?</p>
-        <Link href='/posts/first-post'>
-          <a>Move to Second Post</a>
-        </Link>
         <p>
-          (This is a sample website - you’ll be building a site like this on{' '}
-          <a href="https://nextjs.org/learn">our Next.js tutorial</a>.)
+        Here's a story of the tortoise and the rabbit
+Petty fights were kind of a habit
+They couldn't decide who'd get the carrot
+And so they agreed on racing to the jungle pit.
+
+The tortoise made some calls and told the press
+He said he's sure of winning the race
+The rabbit sneaked in and asked if he's ready for his pace
+The tortoise trashed back 'get ready to save your face'.
         </p>
       </section>
 
