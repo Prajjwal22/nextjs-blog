@@ -1,1 +1,1 @@
-This is my very first Next JS (React) Dedicated to our Bunny Baba 🐇
+This is my very first Next JS (React) Dedicated to our Bunny Baba 🐇 hosted at https://technobies.com
