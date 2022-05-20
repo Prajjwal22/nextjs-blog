@@ -25,14 +25,14 @@ export default function Layout({children, home}) {
             <header className={styles.header}>
                 {home ? (
                     <>
-                    <Image priority src="/images/profile.jpg" className={utilStyles.borderCircle} height={144} width={144} alt={name}/>
+                    <Image priority src="https://www.nationalworld.com/webimg/b25lY21zOjE3YjMxNmFjLWUxYTUtNGI5Ny04ODMwLWU2Njk4MzNmMDYyMjo5ZjZlMThiMy00MzRiLTQ1MWUtOWRhMC1hNTJmNTYyZGUzYTQ=.jpg" className={utilStyles.borderCircle} height={144} width={144} alt={name}/>
                     <h1 className={utilStyles.heading2X1}>{name}</h1>
                     </>
                 ) : (
                     <>
                     <Link href="/">
                         <a>
-                            <Image priority src="/images/profile.jpg" className={utilStyles.borderCircle} height={108} width={108} alt={name}/>
+                            <Image priority src="https://www.nationalworld.com/webimg/b25lY21zOjE3YjMxNmFjLWUxYTUtNGI5Ny04ODMwLWU2Njk4MzNmMDYyMjo5ZjZlMThiMy00MzRiLTQ1MWUtOWRhMC1hNTJmNTYyZGUzYTQ=.jpg" className={utilStyles.borderCircle} height={108} width={108} alt={name}/>
                         </a>
                     </Link>
                     <h2 className={utilStyles.headingLg}>
@@ -48,6 +48,9 @@ export default function Layout({children, home}) {
                 <div className={styles.backToHome}>
                     <Link href="/">
                         <a>← Back to home</a>
+                    </Link>
+                    <Link href="https://notes.technobies.com/">
+                        <a>Take Notes</a>
                     </Link>
                     </div>
             )}
