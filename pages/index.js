@@ -32,6 +32,9 @@ He said he's sure of winning the race
 The rabbit sneaked in and asked if he's ready for his pace
 The tortoise trashed back 'get ready to save your face'.
         </p>
+<Link href="https://notes.technobies.com/">
+                        <a>Take Notes</a>
+                    </Link>
       </section>
 
       <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
